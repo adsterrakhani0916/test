@@ -1,0 +1,137 @@
+/* Reset ساده */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  direction: rtl;
+}
+
+/* نوار ناوبری */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  padding: 1rem;
+}
+
+.navbar .logo {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.navbar .menu {
+  list-style: none;
+  display: flex;
+}
+
+.navbar .menu li {
+  margin-left: 1rem;
+}
+
+.navbar .menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* بخش اصلی (Hero) */
+.hero {
+  background: url('placeholder.svg') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero button {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  border: none;
+  background: #e67e22;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* بخش ویژگی‌ها */
+.features {
+  padding: 2rem 1rem;
+  background: #fff;
+  text-align: center;
+}
+
+.feature-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.feature-card {
+  background: #f1f1f1;
+  padding: 1.5rem;
+  border-radius: 8px;
+  width: 300px;
+}
+
+/* بخش سیگنال‌ها */
+.signals {
+  padding: 2rem 1rem;
+  background: #e8e8e8;
+  text-align: center;
+}
+
+.signal-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.signal-card {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 280px;
+}
+
+.signal-card h3 {
+  margin-bottom: 0.5rem;
+}
+
+.signal-card p {
+  font-size: 0.9rem;
+}
+
+/* بخش تماس */
+.contact {
+  padding: 2rem 1rem;
+  background: #fff;
+  text-align: center;
+}
+
+/* پانوشت */
+.footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
